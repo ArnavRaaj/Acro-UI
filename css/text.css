@@ -1,0 +1,25 @@
+/* text styling */
+
+.heading-text-comp {
+    padding: 0rem 1rem;
+    margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-text {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-pri-color);
+    border: 0.1rem solid var(--border-pri-color);
+    width: 30%;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 0.5rem rgb(65 81 64 / 40%);
+    cursor: pointer;
+    border-radius: 0.5rem 0.5rem 0.5rem 0rem;
+}
+
+.heading-text-comp > h2{
+    font-size: 1.35rem;
+}

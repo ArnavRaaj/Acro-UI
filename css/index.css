@@ -1,0 +1,87 @@
+/* navbar */
+
+.landing-nav,
+.landing-nav-logo,
+.landing-nav-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-nav {
+    z-index: 5;
+    box-shadow: 0rem 0.5rem 0.5rem #d6d6d6;
+    height: 6rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.landing-nav h1 {
+    font-size: 2rem;
+    }
+
+.landing-navBar-image {
+    width: 5rem;
+}
+
+.landing-nav-ul {
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.nav-list-item {
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+.landing-nav-logo{
+    padding: 1rem;
+}
+
+/* logo design */
+
+.design-logo{
+    background-image: linear-gradient(45deg,#f36fff 10%, #4d006b 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent
+
+}
+
+/******* Main conatiner *******/
+.landing-main-content{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    color: rgb(63, 63, 63);
+}
+
+.main-content-heading{
+    font-size: 4rem;
+    width: 90%;
+}
+
+.landing-description{
+    width: 100%;
+    color: #7e7e7e;
+    margin: 2rem;
+}
+
+/* btn */
+.get-started{
+    background: linear-gradient(107deg, #f36fff 0%, #4d006b 100%);
+    color: var(--background-pri-color);
+}
+
+
+/* installation landing */
+.landing-install{
+    margin: 4rem 0rem;
+}

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcroUI | Components</title>
+    <link rel="stylesheet" href="css/comp.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" href="images/icon-image.svg" />
+
+</head>
+
+<body class="layout">
+
+    <!-- Section 1 -->
+    <nav class="navBar">
+        <a href="" class="title-Name">
+            <img src="images/undraw_adventure_4hum.svg" class="navBar-image" alt="">
+            <span class="navBar-title">
+                AcroUI
+            </span>
+        </a>
+
+        <div class="search-container nav-content">
+            <div class="search-box">
+                <input type="text" name="search" id="" placeholder="Search..." class="search-placeholder">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <a href="" class="nav-content about">About</a>
+        <a href="" class="nav-content about">Contact</a>
+    </nav>
+
+    <div class="hr"></div>
+    <!-- Section 2 -->
+    <aside class="sideMenu">
+        <ul class="sideMenu-nav-list">
+            <li>
+                <a href="#alert-head">Alert</a>
+            </li>
+            <li>
+                <a href="#avatar-head">Avatar</a>
+            </li>
+            <li>
+                <a href="#badge-head">Badge</a>
+            </li>
+            <li>
+                <a href="#button-head">Button</a>
+            </li>
+            <li>
+                <a href="#card-head">Card</a>
+            </li>
+            <li>
+                <a href="#image-head">Image</a>
+            </li>
+            <li>
+                <a href="#input-head">Input</a>
+            </li>
+            <li>
+                <a href="#list-head">Lists</a>
+            </li>
+            <li>
+                <a href="#navigation-head">Navigation</a>
+            </li>
+            <li>
+                <a href="#modal-head">Modal</a>
+            </li>
+            <li>
+                <a href="#rating-head">Rating</a>
+            </li>
+            <li>
+                <a href="#grid-head">Simple Grid</a>
+            </li>
+            <li>
+                <a href="#text-head">Text</a>
+            </li>
+            <li>
+                <a href="#snackbar-head">Snackbar</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Section 3 -->
+    <main class="mainContent">
+
+        <!-- Alert -->
+        <section class="content-section" id="alert-head">
+            <h1 class="content-Name">ALERT</h1>
+            <p class="content-Info">Provide contextual feedback messages for typical user actions with the handful of
+                available and flexible alert messages.</p>
+            <div class="alert alert-primary">
+                I am Primary alert — check it out!
+            </div>
+            <div class="alert alert-secondary">
+                I am Secondary alert — check it out!
+            </div>
+            <div class="alert alert-info">
+                I am Info alert — check it out!
+            </div>
+            <div class="alert alert-warning">
+                I am Warning alert — check it out!
+            </div>
+            <div class="alert alert-success">
+                I am Success alert — check it out!
+            </div>
+            <div class="alert alert-danger">
+                I am Danger alert — check it out!
+            </div>
+            <iframe src="https://carbon.now.sh/embed/rkcvwUqINJpRWH3ohW4j" style=" height: 450px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+        <hr>
+        <!-- Avatar -->
+        <section class="content-section" id="avatar-head">
+            <h1 class="content-Name">AVATAR</h1>
+            <p class="content-Info">An icon or figure representing a particular person in a video game, internet forum,
+                etc.</p>
+            <div class="category">
+                <img src="images/badgePic-crop.jpeg" class="avatar avatar-sm" />
+                <img src="images/badgePic-crop.jpeg" class="avatar avatar-md" />
+                <img src="images/badgePic-crop.jpeg" class="avatar avatar-lg" />
+            </div>
+            <iframe src="https://carbon.now.sh/embed/CXgPj1LgQyQM5gJSxMOW" style="height: 214px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <!-- Badge -->
+        <section class="content-section" id="badge-head">
+            <h1 class="content-Name">BADGE</h1>
+            <p class="content-Info">
+                Badges scale to match the size of the immediate parent element by using relative
+                font sizing and em units. As of v5, badges no longer have focus or hover styles for links.
+            </p>
+            <h2 class="typeH2">Badges on avatar👇 </h2>
+            <div class="category">
+                <div class="badge-item ">
+                    <img class="badge-img" src="images/avatar-crop.jpeg" alt="person">
+                    <span class="status status-active"></span>
+                </div>
+
+                <div class="badge-item ">
+                    <img class="badge-img" src="images/avatar-crop.jpeg" alt="person">
+                    <span class="status status-onStay"></span>
+                </div>
+
+                <div class="badge-item ">
+                    <img class="badge-img" src="images/avatar-crop.jpeg" alt="person">
+                    <span class="status status-offline"></span>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/86Bv0LIHO9cBdgPXTaQK" style="height: 400px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+
+            <h2 class="typeH2">Badges on icons👇 </h2>
+            <div class="category">
+                <div class="badge-item ">
+                    <img class="badge-icon" src="images/alarm.png" alt="person">
+                    <span class="icon-status notification-badge">6</span>
+                </div>
+
+                <div class="badge-item ">
+                    <img class="badge-icon" src="images/whatsapp.png" alt="person">
+                    <span class="icon-status whatsApp-badge">10+</span>
+                </div>
+
+                <div class="badge-item ">
+                    <img class="badge-icon" src="images/shopping-cart.png" alt="person">
+                    <span class="icon-status cart-badge">3</span>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/JqBg4CLwknIQR8eyEMLd" style="height: 390px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Button -->
+        <section class="content-section" id="button-head">
+            <h1 class="content-Name">BUTTON</h1>
+            <p class="content-Info">Use this custom button styles for actions in forms, dialogs, and more with support
+                for multiple sizes, states, and more.</p>
+            <h2 class="typeH2"> Primary, link & Mixed buttons👇 </h2>
+            <div class="category">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/oe123ZcYipdvfeFRRrvy" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+            <h2 class="typeH2">Outlined Styled button👇 </h2>
+            <div class="category">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/4BrY64ZTI6S6rJTbWoSt" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <!-- CARD -->
+        <section class="content-section" id="card-head">
+            <h1 class="content-Name">CARD</h1>
+            <p class="content-Info">
+                A card is a flexible and extensible content container. It includes options for headers and footers, a
+                wide variety of content, contextual background colors, and powerful display options.
+            </p>
+            <h2 class="typeH2">Cards with Badges👇 </h2>
+            <div class="card-container">
+                <div class="card ">
+                    <div class="card-image-container">
+                        <img src="images/gameCon.jpg" alt="Game Controller image" class="card-image">
+                        <p class="card-badge best-seller"> Best Seller </p>
+                    </div>
+                    <p class="card-rating">
+                        <span class="card-rating-value"> 4.3 ⭐</span>(213)
+                    </p>
+                    <h4 class="card-name">Sony Dualshock controller</h4>
+                    <p class="card-price">
+                        <span class="price-bold">
+                            ₹3,499
+                        </span>
+                        <span class=" card-price-lineThrough">
+                            5,050
+                        </span>
+                        <span class="card-price-off"> 30% off</span>
+                    </p>
+                    <p class="card-details ">FREE Delivery</p>
+                </div>
+
+                <div class="card ">
+                    <div class="card-image-container">
+                        <img src="images/iphone11.jpg" alt="iphone image" class="card-image">
+                        <p class="card-badge liked-cart-item"> ❤️ </p>
+                    </div>
+
+                    <p class="card-rating">
+                        <span class="card-rating-value"> 4.6 ⭐</span>(7,028)
+                    </p>
+                    <h4 class="card-name">iPhone 11 (Space Grey, 256 GB)</h4>
+                    <p class="card-price">
+                        <span class="price-bold">
+                            ₹99,900
+                        </span>
+                        <span class="card-price-lineThrough">
+                            1,21,300
+                        </span>
+                        <span class="card-price-off"> 17% off</span>
+                    </p>
+                    <p class="card-details no-cost-emi">No Cost EMI
+                        <small> (know more)</small>
+                    </p>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/670S3a4k4zvJczOEFUTz" style="height: 400px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+
+            <!-- dismiss on card -->
+            <h2 class="typeH2">Cards with Dismiss👇 </h2>
+            <div class="card-container">
+                <div class="card ">
+                    <div class="card-image-container">
+                        <img src="images/gameCon.jpg" alt="Game Controller image" class="card-image">
+                        <button class="card-badge cross-btn"> x </button>
+                    </div>
+                    <p class="card-rating">
+                        <span class="card-rating-value"> 4.3 ⭐</span>(213)
+                    </p>
+                    <h4 class="card-name">Sony Dualshock controller</h4>
+                    <p class="card-price">
+                        <span class="price-bold">
+                            ₹3,499
+                        </span>
+                        <span class=" card-price-lineThrough">
+                            5,050
+                        </span>
+                        <span class="card-price-off"> 30% off</span>
+                    </p>
+                    <p class="card-details ">FREE Delivery</p>
+                </div>
+
+                <div class="card ">
+                    <div class="card-image-container">
+                        <img src="images/perfume.jpg" alt="perfum pic" class="card-image">
+                        <p class="card-badge new-item"> NEW </p>
+                        <button class="card-badge delete-btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                    <p class="card-rating">
+                        <span class="card-rating-value"> 4.0 ⭐</span>(1456)
+                    </p>
+                    <h4 class="card-name">Chloe Eau de perfum - 100 ml, For Men</h4>
+                    <p class="card-price">
+                        <span class="price-bold">
+                            ₹4,800
+                        </span>
+                        <span class=" card-price-lineThrough">
+                            9,999
+                        </span>
+                        <span class="card-price-off"> 51% off</span>
+                    </p>
+                    <p class="card-details few-items-left">Hurry, Only few left!
+                    </p>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/IkksJwW8gT28KZYQhA7Q" style="height: 400px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+
+            <!-- TEXT only card -->
+            <h2 class="typeH2">Text card only👇 </h2>
+            <div class="card-container">
+                <div class="card-text card ">
+                    <h2 class="card-heading">
+                        This is Heading 1
+                    </h2>
+                    <p class="card-text-content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis beatae provident ipsam expedita
+                        dolorum quidem quisquam, suscipit tempore fugit aliquam, deleniti distinctio. Labore ducimus
+                        magnam quasi deleniti quam earum excepturi.
+                    </p>
+                </div>
+                <div class="card-text card">
+                    <h2 class="card-heading">
+                        This is Heading 2
+                    </h2>
+                    <p class="card-text-content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis beatae provident ipsam expedita
+                        dolorum quidem quisquam, suscipit tempore fugit aliquam, deleniti distinctio. Labore ducimus
+                        magnam quasi deleniti quam earum excepturi.
+                    </p>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/ucToWEzlkXCiA6j4ktJG" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+            <!-- horizontal card -->
+            <h2 class="typeH2">Horizontal Card👇 </h2>
+            <div class="card-container">
+                <div class="card-horizontal">
+                    <div class="horizontal-card-image">
+                        <img src="images/perfume.jpg" alt="" class="horizontal-card-image">
+                    </div>
+
+                    <div class="horizontal-card-details">
+                        <h4 class="card-name">Chloe Eau de perfum - 100 ml, For Men</h4>
+                        <p class="card-rating">
+                            <span class="card-rating-value"> 4.0 ⭐</span>(1456)
+                        </p>
+
+                        <p class="card-price">
+                            <span class="price-bold">
+                                ₹4,800
+                            </span>
+                            <span class=" card-price-lineThrough">
+                                9,999
+                            </span>
+                            <span class="card-price-off"> 51% off</span>
+                        </p>
+
+                        <p class="card-details no-cost-emi">No Cost EMI
+                            <small> (know more)</small>
+                        </p>
+                        <div class="hori-cart-qty-div">
+                            <span class="hori-cart-quantity ">
+                                Qty
+                            </span>
+                            <button class="hori-cart-btn cart-quan">
+                                <i class="fas fa-minus-circle"></i>
+                            </button>
+                            <input type="number" value="1" class="hori-cart-input cart-quan">
+                            <button class="hori-cart-btn cart-quan">
+                                <i class="fas fa-plus-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="add-to-cart-div">
+                        <button class="add-to-cart-btn btn">
+                            Add to Cart
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="add-to-cart-btn btn remove-btn">
+                            Remove
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/GIVQXIRROtkfLGokgYk1" style="height: 400px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Images -->
+        <section class="content-section" id="image-head">
+            <h1 class="content-Name">IMAGES</h1>
+            <div class="image-container">
+                <h2 class="typeH2">Responsive Images👇 </h2>
+                <img src="images/badgePic.jpeg" alt="Responsive images" class="responsive-image">
+            </div>
+
+            <div class="image-container">
+                <h2 class="typeH2">Round Images👇 </h2>
+                <img src="images/badgePic-crop.jpeg" alt="Responsive images" class="round-image">
+            </div>
+            <iframe src="https://carbon.now.sh/embed/uvPhKvSyVABuphqTN9J4" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- INPUT -->
+        <section class="content-section" id="input-head">
+            <h1 class="content-Name">INPUT</h1>
+            <div class="input-container">
+                <h2 class="typeH2">Textbox👇 </h2>
+                <input type="text" placeholder="Enter Username" class="input-style btn">
+                <input type="text" placeholder="Enter Password" class="input-style btn">
+            </div>
+            <iframe src="https://carbon.now.sh/embed/OdlSINUrf6MSbcbTi8uf" style="height: 200px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+
+            <div class="input-container">
+                <h2 class="typeH2">Textbox - Error Message👇 </h2>
+                <input type="text" placeholder="Enter your email" class="input-style error-input btn">
+                <small class="error-msg">Error - Invalid input</small>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/sSPRSsNpq849Ryw522rS" style="height: 210px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- LIST-->
+        <section class="content-section" id="list-head">
+            <h1 class="content-Name">LIST</h1>
+            <div class="list-container">
+                <h2 class="typeH2">Spaced List👇 </h2>
+                <li class="spaced-list btn">List Item 1</li>
+                <li class="spaced-list btn">List Item 2</li>
+                <li class="spaced-list btn">List Item 3</li>
+                <li class="spaced-list btn">List Item 4</li>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/PFaZHwEBeCB0kMeHpJyI" style="height: 250px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+            <div class="list-container">
+                <h2 class="typeH2">Stacked Notification List👇 </h2>
+                <li class="spaced-list btn">
+                    <h4> WhatsApp</h4>
+                    <p class="noti-msg">
+                        5 messages from 2 chats
+                    </p>
+                    <div class="noti-response-btn">
+                        <button class="noti-btn">
+                            Reply
+                        </button>
+                        <button class="noti-btn">
+                            Mark as read
+                        </button>
+                    </div>
+                </li>
+
+                <li class="spaced-list btn">
+                    <h4> Instagram</h4>
+                    <p class="noti-msg">
+                        Tanay added to his stroy
+                    </p>
+                    <div class="noti-response-btn">
+                        <button class="noti-btn noti-btn-insta">
+                            View
+                        </button>
+                        <button class="noti-btn noti-btn-insta">
+                            Mark as view
+                        </button>
+                    </div>
+                </li>
+                <li class="spaced-list btn">
+                    <h4> Twitter</h4>
+                    <p class="noti-msg">
+                        Tanay just twitted a photo
+                    </p>
+                    <div class="noti-response-btn">
+                        <button class="noti-btn noti-btn-twitter">
+                            Reply
+                        </button>
+                        <button class="noti-btn noti-btn-twitter">
+                            Retweet
+                        </button>
+                        <button class="noti-btn noti-btn-twitter">
+                            Like
+                        </button>
+                    </div>
+                </li>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/97Ulp4DSVk7XhkWYEzBx" style="height: 210px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- NAVIGATION-->
+        <section class="content-section" id="navigation-head">
+            <h1 class="content-Name">NAVIGATION</h1>
+            <nav class="nav-comp-container">
+                <div class="nav-comp-logo">
+                    <img src="images/city-image-.svg" alt="Company Logo" class="nav-comp-image">
+                    <span class="nav-comp-name">
+                        MyComp
+                    </span>
+                </div>
+                <ul class="nav-comp-list">
+                    <li class="nav-comp-links active-nav-link">
+                        <a href="#" class="nav-comp-item">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-comp-links">
+                        <a href="#" class="nav-comp-item">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-comp-links">
+                        <a href="#" class="nav-comp-item">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <iframe src="https://carbon.now.sh/embed/WvQlw0RCkvgK2vbR2E14" style="height: 500px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Modal-->
+        <section class="content-section" id="modal-head">
+            <h1 class="content-Name">MODAL</h1>
+            <div class="modal-container">
+                <button class="btn btn-primary" id="show-modal-btn">Show Modal</button>
+                <div id="modal-backDrop"></div>
+                <div id="modal" class="modal-hide">
+                    <header class="modal-header">
+                        <p><strong>Modal title</strong></p>
+                        <i class="fas fa-times" id="modal-hide-icon"></i>
+                    </header>
+                    <p class="modal-text">This is a centered modal</p>
+                    <footer class="modal-footer">
+                        <button id="modal-hide" class="btn btn-secondary" id="modal-hide">
+                            Close
+                        </button>
+                        <button class="btn btn-success" id="modal-save">
+                            Save changes
+                        </button>
+                    </footer>
+                </div>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/uVBE5iyXXAiKkaJN9CRe" style="height: 450px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Rating -->
+        <section class="content-section" id="rating-head">
+            <h1 class="content-Name"> RATING</h1>
+            <div class="rating">
+                <div class="star-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="star-container high-rated">
+                    4.8 <i class="fas fa-star star-rate"></i>
+                </div>
+
+                <div class="star-container mid-rated">
+                    3.6 <i class="fas fa-star star-rate"></i>
+                </div>
+
+                <div class="star-container low-rated">
+                    1.9 <i class="fas fa-star star-rate"></i>
+                </div>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/SgUD1hnexILp5b0PDVkl" style="height: 400px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Simple Grid -->
+        <section class="content-section" id="grid-head">
+            <h1 class="content-Name"> SIMPLE GRID</h1>
+            <h2 class="typeH2">Two items in a grid👇 </h2>
+            <div class="grid-2-container">
+
+                <section class="grid--comp sec-1">
+                    <p>
+                        This is section 1 of Grid.
+                    </p>
+                </section>
+                <section class="grid--comp sec-2">
+                    <p>
+                        This is section 2 of Grid.
+                    </p>
+                </section>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/R38QiWSR2ygjfi17ASAe" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+            <h2 class="typeH2">Three items in a grid👇 </h2>
+
+            <div class="grid-3-container">
+                <section class="grid--comp sec3--1">
+                    <p>
+                        This is section 1 of Grid.
+                    </p>
+                </section>
+                <section class="grid--comp sec3--2">
+                    <p>
+                        This is section 2 of Grid.
+                    </p>
+                </section>
+
+                <section class="grid--comp sec3--3">
+                    <p>
+                        This is section 3 of Grid.
+                    </p>
+                </section>
+            </div>
+            <iframe src="https://carbon.now.sh/embed/oXbNp6mYJTlY0P9NJp98" style="height: 300px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- TEXT Grid -->
+        <section class="content-section" id="text-head">
+            <h1 class="content-Name"> TEXT</h1>
+            <h2 class="typeH2">Headings👇 </h2>
+            <div class="heading-text-comp">
+                <h1>This is h1 Heading.</h1>
+                <h2>This is h2 Heading.</h2>
+                <h3>This is h3 Heading.</h3>
+                <h4>This is h4 Heading.</h4>
+                <h5>This is h5 Heading.</h5>
+                <h6>This is h6 Heading.</h6>
+            </div>
+
+            <h2 class="typeH2">Small grey centered text👇 </h2>
+
+            <div class="small-text">
+                <small class="grey-center-text">
+                    Hi! I'm small Grey centered para.
+                </small>
+            </div>
+
+            <iframe src="https://carbon.now.sh/embed/JUbGrcdxjNRju6DNDyo0" style="height: 360px;"
+                sandbox="allow-scripts allow-same-origin" class="iframe-content">
+            </iframe>
+        </section>
+
+        <hr>
+        <!-- Snackbar -->
+        <section class="content-section" id="snackbar-head">
+            <h1 class="content-Name"> SNACKBAR</h1>
+            <div class="snakbar-container">
+                <button class="btn btn-primary" id="show-Snackbar">
+                    Show Snackbar
+                </button>
+                <div class="snackbar-container" id="snackbar-contents">
+                    <div class="snackbar-message btn-success">
+                        <span>This is a Snackbar</span>
+                        <i class="fas fa-times" id="snackbar-close"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+<script src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,165 @@
+/*********************** Section 1 ******************/
+
+.navBar {
+    grid-area: navigation;
+    background-color: var(--background-pri-color);
+    color: var(--primary-font-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    height: 6rem;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.title-Name {
+    margin-right: auto;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.navBar-image {
+    max-width: 30%;
+    height: 10%;
+    width: 10%;
+}
+
+.search-container,
+.search-placeholder {
+    background-color: var(--background-sec-color);
+    padding: 0.5rem;
+    margin: 0rem 1rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+
+.search-container {
+    min-width: 16rem;
+    display: flex;
+}
+
+.fa-search {
+    padding-right: 0.5rem;
+    color: var(--primary-font-color);
+}
+
+.navBar>.nav-content {
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+
+/*************** Section 2 ****************/
+.sideMenu {
+    grid-area: sidemenu;
+    background-color: var(--background-pri-color);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5rem;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+}
+
+.sideMenu-nav-list {
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0rem;
+}
+
+
+.sideMenu li {
+    padding: 0.5rem 1rem;
+    margin: 1rem 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+}
+
+.sideMenu li:hover {
+    background: linear-gradient(107deg, #f36fff 0%, #4d006b 100%);  
+}
+
+.sideMenu li a:hover {
+    color: var(--background-pri-color);
+    transition: all 0.5s ease-in-out;
+}
+
+
+/************ Section 3 *************/
+.mainContent {
+    grid-area: mainContainer;
+    background-color: var(--background-sec-color);
+    padding: 1rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    position: relative;
+    top: 6rem;
+    max-width: 100%;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section .content-Name {
+    font-size: 3rem;
+    align-self: center;
+}
+
+.content-Info {
+    font-style: italic;
+    margin: 1rem;
+}
+
+.iframe-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 1rem;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.typeH2 {
+    margin: 1rem;
+}
+
+
+/********** grid displaying ***********/
+.layout {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-row-gap: 1px black;
+    grid-template-areas:
+        "navigation navigation navigation navigation navigation navigation navigation"
+        "sidemenu mainContainer mainContainer mainContainer  mainContainer mainContainer mainContainer"
+    ;
+}
+
+
+/******************* OTHERS *******************/
+
+hr {
+    margin: 1rem;
+}
+
+/* section{
+    padding-top: 5rem ;
+} */

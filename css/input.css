@@ -1,0 +1,20 @@
+/****** Input *******/
+.input-style {
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    padding: 1rem;
+    border: none;
+}
+
+.error-input {
+    position: relative;
+    border: 0.1rem solid #f06666;
+    margin-bottom: 0rem;
+}
+
+.error-msg {
+    color: #b10202;
+    font-weight: bold;
+    padding: 1rem;
+}

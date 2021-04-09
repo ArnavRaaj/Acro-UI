@@ -1,0 +1,30 @@
+.snackbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    display: none;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 10;
+}
+
+.snackbar-container>div {
+    padding: 1.2rem;
+}
+
+.snackbar-message {
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.9rem;
+    position: relative;
+    width: 14rem;
+    font-size: large;
+}
+
+.snackbar-message i {
+    position: absolute;
+    right: 0.8rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
