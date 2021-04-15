@@ -1,7 +1,7 @@
 .modal-backdrop{
     position: fixed;
     top: 10rem;
-    left: 27rem;
+    left: 30rem;
     z-index: 3;
     background-color: var(--background-pri-color);
     width: 40%;
@@ -12,7 +12,7 @@
   display: flex;
   position: fixed;
   top: 14rem;
-  left: 31rem;
+  left: 34rem;
   width: 30rem;
   z-index: 5;
   background-color: var(--badge-white-color);

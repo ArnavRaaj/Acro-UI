@@ -150,3 +150,17 @@
     color: #ffffff;
     border: none;
 }
+
+.btn-floating{
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--background-pri-color);
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.5rem rgb(65 81 64 / 40%);
+    z-index: 10;
+}
