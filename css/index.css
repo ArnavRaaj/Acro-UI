@@ -1,0 +1,220 @@
+/* navbar */
+
+.landing-nav,
+.landing-nav-logo,
+.landing-nav-ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-nav {
+    z-index: 10;
+    box-shadow: 0rem 0.5rem 0.5rem #d6d6d6;
+    height: 6rem;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.landing-nav h1 {
+    font-size: 2rem;
+}
+
+.landing-navBar-image {
+    width: 5rem;
+}
+
+.landing-nav-ul {
+    margin-left: auto;
+    padding-right: 1rem;
+}
+
+.nav-list-item {
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+.landing-nav-logo {
+    padding: 1rem;
+}
+
+/* logo design */
+
+.design-logo {
+    background-image: linear-gradient(45deg, #f36fff 10%, #4d006b 100%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent
+}
+
+/******* Main conatiner *******/
+.landing-main-content {
+    padding: 5rem 5rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    color: rgb(63, 63, 63);
+}
+
+.main-content-heading {
+    font-size: 4rem;
+    width: 90%;
+}
+
+.landing-description {
+    width: 100%;
+    color: #7e7e7e;
+    margin: 2rem;
+}
+
+/* btn */
+.get-started {
+    background: linear-gradient(107deg, #f36fff 0%, #4d006b 100%);
+    color: var(--background-pri-color);
+}
+
+
+/* installation landing */
+.landing-install {
+    margin: 4rem 0rem;
+    width: 100%;
+
+}
+
+.landing-iframe {
+    width: 637px;
+    height: 7rem;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.installation-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.installation-head-container {
+    margin-bottom: 1rem;
+}
+
+/***** Footer  *****/
+.landing-footer {
+    height: 10rem;
+    background-color: var(--background-sec-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;    
+    flex-direction: row;
+}
+
+.social-icons{
+    padding: 1rem;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.footer-copyright{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.footer-msg, .footer-copyright{
+    color: var(--primary-font-color);
+}
+
+.fa-github:hover{
+color: #24292e;
+}
+
+.fa-linkedin-in:hover{
+    color: #0a66c2;
+}
+
+.fa-twitter:hover{
+    color: rgba(29,161,242,1.00);;
+}
+
+.fa-heart{
+    color: red;
+}
+
+
+@media (max-width: 430px) {
+    .landing-btn-container {
+        flex-direction: column;
+    }
+
+    .get-started {
+        margin: 4rem 0rem;
+    }
+
+    .github-landing {
+        margin-top: 4rem;
+    }
+
+    /* landing page */
+    .landing-main-content {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .main-content-heading {
+        font-size: 2rem;
+    }
+
+    .landing-iframe {
+        width: auto;
+        height: auto;
+    }
+
+    /* Nav & logo */
+    .landing-nav-logo {
+        padding: 0.5rem;
+    }
+
+    .landing-navBar-image {
+        width: 4rem;
+    }
+
+    .design-log {
+        font-size: 1rem;
+    }
+
+    .landing-nav {
+        height: 5rem;
+    }
+
+    .nav-list-item {
+        padding: 0.5rem;
+        margin: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .landing-nav-ul {
+        margin-left: auto;
+        padding-right: 0rem;
+    }
+
+    .landing-main-content {
+        padding: 1rem;
+        align-items: center;
+        max-width: 100%;
+    }
+}

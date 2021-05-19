@@ -1,0 +1,49 @@
+/* sample grid component */
+
+.sec-1 {
+    grid-area: section1;
+}
+
+.sec-2 {
+    grid-area: section2;
+}
+
+.grid--comp {
+    padding: 1rem;
+    border: 0.1rem solid var(--border-pri-color);
+    height: 6rem;
+    align-items: center;
+    background-color: var(--info-ele-bgcolor);
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.grid-2-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "section1 section2";
+}
+
+/* 3 sections */
+.sec3--1 {
+    grid-area: section3-1;
+}
+
+.sec3--2 {
+    grid-area: section3-2;
+}
+
+.sec3--3 {
+    grid-area: section3-3;
+}
+
+.grid-3-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "section3-1 section3-2 section3-3";
+}

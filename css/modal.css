@@ -1,0 +1,58 @@
+.modal-backdrop{
+    position: fixed;
+    top: 10rem;
+    left: 30rem;
+    z-index: 3;
+    background-color: var(--background-pri-color);
+    width: 40%;
+    height: 25rem;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  top: 14rem;
+  left: 34rem;
+  width: 30rem;
+  z-index: 5;
+  background-color: var(--badge-white-color);
+}
+
+.modal-hide{
+  display: none;
+}
+
+.modal-display{
+  display: block;
+
+}
+
+.modal-header,
+.modal-text,
+.modal-footer {
+  padding: 1.2rem;
+  border: 1px solid var(--border-pri-color);
+  position: relative;
+}
+
+.modal-header i {
+  cursor: pointer;
+  position: absolute;
+  top: 1.29rem;
+  right: 0.8rem;
+  line-height: 1.2;
+}
+
+.modal-text {
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+#show-modal-btn{
+    max-width: fit-content;
+}

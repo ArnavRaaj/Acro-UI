@@ -1,0 +1,20 @@
+/********* Image ********/
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-image{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+}
+
+.round-image{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+}

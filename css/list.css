@@ -1,0 +1,33 @@
+/****** List styling*******/
+
+.list-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.spaced-list{
+    list-style-type: none;
+    padding: 1.5rem;
+    background-color: var(--background-pri-color );
+    margin: 2rem;
+    border: none;
+    max-width: 80%;
+    width: 100%;
+}
+
+.noti-btn{
+    background-color: var(--background-pri-color);
+    border: none;
+    font-weight: bold;
+    color: #018f3c;
+    margin-right: 2rem ;
+    cursor: pointer;
+}
+
+.noti-btn-insta{
+    color: rgb(255, 17, 0);
+}
+
+.noti-btn-twitter{
+    color: rgb(0, 183, 255);
+}

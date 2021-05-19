@@ -1,0 +1,39 @@
+/***** Rating *****/
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.star-container {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: rgb(255, 136, 0);
+}
+
+.star-rate,
+.high-rated,
+.mid-rated,
+.low-rated {
+    color: var(--background-pri-color);
+}
+
+.high-rated {
+    background-color: var(--green-clr);
+}
+
+.mid-rated {
+    background-color: var(--warning-text-clr);
+}
+
+.low-rated {
+    background-color: var(--danger-text-clr);
+}
